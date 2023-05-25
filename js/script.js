@@ -7,3 +7,6 @@ function calcularIdade() {
         age--;
     }
 }
+function calcularrenda(){
+    
+}
