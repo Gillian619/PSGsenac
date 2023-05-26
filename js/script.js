@@ -7,16 +7,15 @@ function matricula() {
     if (mes < 0 || (mes === 0 && hoje.getDate() < nasc.getDate())) {
         ano--;
     }
-//calculo de renda percapta
+    //calculo de renda percapta
     let rend = parseFloat(document.getElementById("renda").value)
     let mor = parseFloat(document.getElementById("moradores").value)
     let ratio = parseFloat(rend / mor)
-//parametro para matricula considerando ambas
+    //parametro para matricula considerando ambas
     if (ano >= 16 && ratio <= 1980) {
-        alert("Pode matricular")
+        document.getElementById("mensagem").innerText = "matricula valida"
     }
     else {
-        alert("Voce não corrensponde aos critérios para o curso")
+        document.getElementById("mensagem").innerText = "Voce não corrensponde aos critérios para o curso"
     }
-
 }
