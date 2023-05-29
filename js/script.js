@@ -13,7 +13,7 @@ function matricula() {
     let ratio = parseFloat(rend / mor)
     //parametro para matricula considerando ambas
     if (ano >= 16 && ratio <= 1980) {
-        document.getElementById("mensagem").innerText = "matricula valida"
+        document.getElementById("mensagem").innerText = "matricula valida. Ligue para o número (XX)XXXXX-XXXX para realizar a sua matrícula"
     }
     else {
         document.getElementById("mensagem").innerText = "Voce não corrensponde aos critérios para o curso"
