@@ -1,4 +1,12 @@
-body{
-    margin: 15px;
-    color: blue;
+#body {
+    margin: 2pc;
+    color: #DDDDDD;
+    background-color: #16558C;
+}
+.navbar{
+    background-color: #F28D35;
+}
+.navbar-nav, .nav-item{
+    color: #DDDDDD;
+    background-color:  #030A8C;
 }
