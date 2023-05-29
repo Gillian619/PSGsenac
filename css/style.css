@@ -1,12 +1,30 @@
 #body {
-    margin: 2pc;
     color: #DDDDDD;
     background-color: #16558C;
 }
-.navbar{
+
+.navbar {
     background-color: #F28D35;
 }
-.navbar-nav, .nav-item{
+
+.navbar-nav,
+.nav-item {
     color: #DDDDDD;
-    background-color:  #030A8C;
+    background-color: #030A8C;
+}
+#form1{
+    margin-left: 2pc;
+    margin-right: 2pc;
+}
+footer {
+    margin-top: 15pc;
+}
+
+.footer-menu {
+    color: #DDDDDD;
+    background-color: #F28D35;
+}
+
+.footer-content {
+    background-color: #030A8C;
 }
