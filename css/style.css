@@ -12,10 +12,13 @@
     color: #DDDDDD;
     background-color: #030A8C;
 }
-#form1{
+
+#form1 {
+    margin-top: 4pc;
     margin-left: 2pc;
     margin-right: 2pc;
 }
+
 footer {
     margin-top: 15pc;
 }
