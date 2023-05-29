@@ -19,3 +19,6 @@ function matricula() {
         document.getElementById("mensagem").innerText = "Voce não corrensponde aos critérios para o curso"
     }
 }
+function notamedia(){
+    
+}
