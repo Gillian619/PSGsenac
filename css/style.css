@@ -6,19 +6,41 @@
 .navbar {
     background-color: #F28D35;
 }
-
+header{
+    display: flex;
+    justify-content: space-between;
+}
 .navbar-nav,
 .nav-item {
     color: #DDDDDD;
     background-color: #030A8C;
 }
-
+#navbarNavAltMarkup{
+    padding-left: 70%;
+}
+#navbarNavAltMarkup>ul>li>a:hover{
+    color: #DDDDDD;
+}
+#formb{
+    margin-top: 4pc;
+    margin-left: 2pc;
+    margin-right: 2pc;
+}
 #form1 {
     margin-top: 4pc;
     margin-left: 2pc;
     margin-right: 2pc;
 }
-
+#presr{
+    margin-top: 6pc;
+}
+#sectitle{
+    border: 3px solid #F28D35;
+    margin-right: 70%;
+    padding: 15px 100px;
+    border-radius: 15px;
+    background: #F28D35;
+}
 footer {
     margin-top: 15pc;
 }
