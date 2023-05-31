@@ -17,9 +17,10 @@ header{
 }
 #navbarNavAltMarkup{
     padding-left: 70%;
+    color: #DDDDDD;
 }
 #navbarNavAltMarkup>ul>li>a:hover{
-    color: #DDDDDD;
+    color: #F28D35;
 }
 #formb{
     margin-top: 4pc;
