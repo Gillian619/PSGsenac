@@ -13,17 +13,38 @@ header {
 }
 
 .navbar-nav,
-.nav-item {
-    background-color: #030A8C;
-    border-radius: 40px;
+.nav-item{
+    column-gap: 20pc;
+    margin-left: 2pc;
 }
-
+.nav-link{
+    border:200px #030A8C !important;
+    background-color: #030A8C;
+    border-radius: 50px;
+}
 nav .navbar-nav li a {
     color: #EEEEEE !important;
 }
 
 #navbarNavAltMarkup>ul>li>a:hover {
     color: #F28D35 !important;
+}
+
+.radioprescc {
+    border: 90px #F28D35;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    margin: 40px;
+    background-color: #F28D35;
+}
+
+.imputcc {
+    border: 40px #F28D35;
+    border-radius: 15px;
+    margin-bottom: 4pc;
+    margin: 40px;
+    background-color: #F28D35;
 }
 
 #formb {
@@ -49,7 +70,12 @@ nav .navbar-nav li a {
     border-radius: 15px;
     background: #F28D35;
 }
-
+.table-cursos{
+    margin: 4pc;
+    background-color: #F28D35;
+    border: 16px;
+    border-radius: 16px;
+}
 footer {
     margin-top: 15pc;
 }
