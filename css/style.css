@@ -5,6 +5,7 @@
 
 .navbar {
     background-color: #F28D35;
+    padding-left: 18pc;
 }
 
 header {
@@ -13,15 +14,17 @@ header {
 }
 
 .navbar-nav,
-.nav-item{
-    column-gap: 20pc;
+.nav-item {
+    column-gap: 10pc;
     margin-left: 2pc;
 }
-.nav-link{
-    border:200px #030A8C !important;
+
+.nav-link {
+    border: 200px #030A8C !important;
     background-color: #030A8C;
     border-radius: 50px;
 }
+
 nav .navbar-nav li a {
     color: #EEEEEE !important;
 }
@@ -70,12 +73,14 @@ nav .navbar-nav li a {
     border-radius: 15px;
     background: #F28D35;
 }
-.table-cursos{
+
+.table-cursos {
     margin: 4pc;
     background-color: #F28D35;
     border: 16px;
     border-radius: 16px;
 }
+
 footer {
     margin-top: 15pc;
 }
